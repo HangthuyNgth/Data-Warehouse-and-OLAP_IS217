@@ -1,0 +1,485 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6d05ea2e-3f94-4dc2-864e-b409bc486563" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Time</ID>
+  <Name>Dim Time</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1582" scrolltop="-5934" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11279" y="15754" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001153e0100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Time" left="-86" top="-76" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4642" height="3886" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000221200002e0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Time" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1582</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5934</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-86</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-76</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="203" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="267">
+            <Shape Id="Start Time Date" Expanded="false">
+              <Attributes>
+                <Attribute Id="Start Time Date" />
+                <Attribute Id="Start Time Date Of Week" />
+              </Attributes>
+              <Position x="223" y="20" />
+            </Shape>
+            <Shape Id="Start Time Minute" Expanded="false">
+              <Attributes>
+                <Attribute Id="Start Time Minute" />
+              </Attributes>
+              <Position x="561" y="20" />
+            </Shape>
+            <Shape Id="Start Time Hour" Expanded="false">
+              <Attributes>
+                <Attribute Id="Start Time Hour" />
+              </Attributes>
+              <Position x="900" y="20" />
+            </Shape>
+            <Shape Id="Start Time Day" Expanded="false">
+              <Attributes>
+                <Attribute Id="Start Time Day" />
+              </Attributes>
+              <Position x="1239" y="20" />
+            </Shape>
+            <Shape Id="Start Time Month" Expanded="false">
+              <Attributes>
+                <Attribute Id="Start Time Month" />
+              </Attributes>
+              <Position x="1578" y="20" />
+            </Shape>
+            <Shape Id="Start Time Quater" Expanded="false">
+              <Attributes>
+                <Attribute Id="Start Time Quater" />
+              </Attributes>
+              <Position x="1916" y="20" />
+            </Shape>
+            <Shape Id="Start Time Year" Expanded="false">
+              <Attributes>
+                <Attribute Id="Start Time Year" />
+              </Attributes>
+              <Position x="2255" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="3dec9e3a-a183-42b9-900f-9ee3e5d8741e">
+    <DataSourceViewID>US ACCIDENTS MARH23</DataSourceViewID>
+  </Source>
+  <Type>Time</Type>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="bf894fe7-60bb-45bb-b35e-80562b58f7b3">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="8aacd5d7-5253-4e48-bdc0-a29dae8d3efd">
+      <ID>Start Time Date</ID>
+      <Name>Start Time Date</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="37d53341-516b-4605-bd67-09cdcc412e04">
+          <DataType>Date</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5177b8ea-e8f4-4a19-b887-e2d556917795">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Start_Time_Date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="9a9459a6-0244-4184-a46f-5b203a88b921">
+          <AttributeID>Start Time Date Of Week</AttributeID>
+          <Name>Start Time Date Of Week</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0634de5e-517c-490a-ad3e-d7155a217deb">
+          <AttributeID>Start Time Minute</AttributeID>
+          <Name>Start Time Minute</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="138debc6-4dc0-48e6-a9e0-df013ab74e2c">
+      <ID>Start Time Day</ID>
+      <Name>Start Time Day</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ea43a33d-c6fd-435a-a47f-0d974f213457">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e1d9bc25-70ef-483e-99a6-a62112cfc281">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Start_Time_Day</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="2b58710a-cb40-4078-8122-db3581b474e9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a704a645-cedc-4d01-815c-3889ac978566">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Start_Time_Month</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="05c6d612-f0e5-42f7-9fb6-8c4eede1aa55">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f852a43c-9a57-4430-be48-7281d3702217">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Start_Time_Quater</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="688a8128-1a1c-48d3-9f52-8309931b4056">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f747ea2b-e919-402a-bfba-523b281082f4">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Start_Time_Year</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="f82eae39-da21-4cad-b3ff-a350484a9165">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="fcbcd10d-3d1a-40b0-b3ee-088d42cbba52">
+          <TableID>dbo_Dim_Time</TableID>
+          <ColumnID>Start_Time_Day</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="2223cab0-146f-49d1-a426-7a3baf936dd9">
+          <AttributeID>Start Time Month</AttributeID>
+          <Name>Start Time Month</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e50a02b3-af4e-47d8-8804-c8d1e053f7e3">
+      <ID>Start Time Month</ID>
+      <Name>Start Time Month</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fad6b6e8-b206-44ee-8c20-8583395bf9e3">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="07496b72-1974-4d6c-8c6a-28e1ec52364b">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Start_Time_Month</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="3723e167-5419-403e-a81d-a014c7fd247a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7753929f-09ec-4adf-953a-33af365c87c7">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Start_Time_Quater</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="65884208-793a-460f-82b8-fceb8c04eb80">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="785d4aec-3a67-4dc4-8d94-cc441edd93d4">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Start_Time_Year</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="d47b3b9c-530c-4fad-9773-3e5c7a54cb24">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="845f769a-cd33-4bc3-983d-a4afbe7b8b2e">
+          <TableID>dbo_Dim_Time</TableID>
+          <ColumnID>Start_Time_Month</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="94653185-7055-44a9-ad3d-842facee571e">
+          <AttributeID>Start Time Quater</AttributeID>
+          <Name>Start Time Quater</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d532a9c0-e469-42f5-9141-b2544c36aee5">
+      <ID>Start Time Year</ID>
+      <Name>Start Time Year</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9ea2df68-e41a-44e5-89ad-7485a729a0c2">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f150a8ca-45a7-4582-aa8a-c377b4c50533">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Start_Time_Year</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="10e8d0fd-8408-4810-b4d3-d4870c6b1054">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="47abc301-ea94-4194-b148-e7850072f087">
+          <TableID>dbo_Dim_Time</TableID>
+          <ColumnID>Start_Time_Year</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="23d62738-fcce-4420-b213-7bc7716333ae">
+      <ID>Start Time Quater</ID>
+      <Name>Start Time Quater</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dee0e0e0-6788-4ae6-ad7c-f3d864f92d22">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="15655aaa-0100-4f0b-813a-feb25314cce1">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Start_Time_Quater</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="35997ffa-00c6-4e1f-8a35-e9f75fdc5d3b">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="709823b3-e698-478c-86b7-9083d23d7c13">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Start_Time_Year</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="6ceac159-1b25-4e6f-99ae-249d910eb5b5">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="731a51f4-d68a-4c94-8305-f9c060f49c00">
+          <TableID>dbo_Dim_Time</TableID>
+          <ColumnID>Start_Time_Quater</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="a66d842c-9a7c-425a-ba33-de3546a4b8e0">
+          <AttributeID>Start Time Year</AttributeID>
+          <Name>Start Time Year</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="99d5369c-81c9-4169-9a54-8474449f0659">
+      <ID>Start Time Date Of Week</ID>
+      <Name>Start Time Date Of Week</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d6d28807-98ae-419a-8c81-b542d7701bd9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a367505d-aff0-4eb9-b288-4c4be3774bca">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Start_Time_Date_Of_Week</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="85995e31-9876-4c1e-952e-be85df98c3cc">
+      <ID>Start Time Hour</ID>
+      <Name>Start Time Hour</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b43b340f-caa1-4812-a18e-7937c1aac1b8">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0573c169-7540-4b37-baa9-4d44ed26d6d0">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Start_Time_Hour</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="e5c862c7-ff86-4534-b7aa-c08a80d4b391">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="161a3807-6336-4ed1-a2c9-02bc4fc65062">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Start_Time_Day</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="1083d6aa-ba41-4012-86cb-1d4334ba9d82">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="28e54e57-383c-4e91-9afc-934347ca123f">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Start_Time_Month</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="9bff9b88-4303-41e7-a7ff-beb81f3e7c7c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d2e0403f-9a79-45ae-ad1f-709c4cc85fe1">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Start_Time_Quater</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="a94e3aa9-bfc8-4142-abe4-d66284278a40">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="45c5107b-ff26-4cc7-abc1-afb0ff66c794">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Start_Time_Year</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="322fec75-23af-4def-b790-ca5283e63407">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="b6ccf924-16fa-403c-abf8-999dfe17d2c9">
+          <TableID>dbo_Dim_Time</TableID>
+          <ColumnID>Start_Time_Hour</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="77090131-7bd6-49ca-9982-ec1560241c9d">
+          <AttributeID>Start Time Day</AttributeID>
+          <Name>Start Time Day</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fe0a18f7-b05a-48a4-bd23-8b1c9ae7843d">
+      <ID>Start Time Minute</ID>
+      <Name>Start Time Minute</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6bba6ff9-5f3b-4715-afc1-c1d6b1fad72c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="60add44c-15ab-4f6c-900d-e9488e9aaf18">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Start_Time_Minute</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="c4363d4d-454e-42b8-b226-24ea1ecc39f2">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f0021544-624a-4e87-980d-d1d6a92cdd03">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Start_Time_Hour</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="dc457449-dec9-477f-b63d-79dfea01c0c3">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bb532e0c-3d47-4d2d-b02c-b02864f96046">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Start_Time_Day</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="ac031c5c-a089-4213-9bf4-d128f1914799">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8711c5e9-e768-463e-aca4-60a2bf07afd1">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Start_Time_Month</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="0f6a4318-806f-44ce-944a-0cf97aa6435d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fa22c6f2-19d4-4d61-8510-11608de90b2d">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Start_Time_Quater</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="c6e56a96-7673-4fcc-8c42-e0b608cd7494">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b21ee9d1-217d-4bda-a436-1edbf09fd820">
+            <TableID>dbo_Dim_Time</TableID>
+            <ColumnID>Start_Time_Year</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="4a68b06d-5e7b-4ed0-b972-254c8b552a9f">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="2b1303f3-49d7-4279-825d-e4a616be8604">
+          <TableID>dbo_Dim_Time</TableID>
+          <ColumnID>Start_Time_Minute</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="a6da2c52-085e-40dc-88e6-1c0ab6d01f28">
+          <AttributeID>Start Time Hour</AttributeID>
+          <Name>Start Time Hour</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="d18a18f4-a286-4237-9f44-1285e56b5a27">
+      <ID>Hierarchy</ID>
+      <Name>Time Accidents Happend</Name>
+      <Levels>
+        <Level dwd:design-time-name="8dc28c08-16e3-401d-9e33-db3faa8ec1fd">
+          <ID>Start Time Year</ID>
+          <Name>Start Time Year</Name>
+          <SourceAttributeID>Start Time Year</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="2238fda7-d7f0-4196-9e3e-4d3ee6474cf8">
+          <ID>Start Time Quater</ID>
+          <Name>Start Time Quater</Name>
+          <SourceAttributeID>Start Time Quater</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="29a920f2-d640-45d0-96fa-21faa0cb1ef2">
+          <ID>Start Time Month</ID>
+          <Name>Start Time Month</Name>
+          <SourceAttributeID>Start Time Month</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="2c7a7752-2231-423b-9c77-5d182ce76fea">
+          <ID>Start Time Day</ID>
+          <Name>Start Time Day</Name>
+          <SourceAttributeID>Start Time Day</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="50ac9af7-5e46-41ca-a98e-b395efdb0b43">
+          <ID>Start Time Hour</ID>
+          <Name>Start Time Hour</Name>
+          <SourceAttributeID>Start Time Hour</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="35487a14-7e46-4c73-abf4-56a16c6bd44b">
+          <ID>Start Time Minute</ID>
+          <Name>Start Time Minute</Name>
+          <SourceAttributeID>Start Time Minute</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

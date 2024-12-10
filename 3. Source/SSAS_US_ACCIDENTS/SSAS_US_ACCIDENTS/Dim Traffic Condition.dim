@@ -1,0 +1,304 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="17946aab-b734-4146-b655-5d7c5faa8970" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Traffic Condition</ID>
+  <Name>Dim Traffic Condition</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2074" scrolltop="-5377" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7847" y="15754" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001153e0100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Traffic_Condition" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3659" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00004b0e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Traffic_Condition" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2074</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5377</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="14e920d8-1341-4056-a7cd-e94534576eab">
+    <DataSourceViewID>US ACCIDENTS MARH23</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="0725376b-4ed2-4e56-a745-15b6e04edb21">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="048c5f27-a2ee-4c14-99f6-46de1ba23da8">
+      <ID>Traffic Condition ID</ID>
+      <Name>Traffic Condition ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9a52c926-9734-493c-8b69-5fe83a586410">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cf56749d-a889-4cf5-9256-586ea05f1e34">
+            <TableID>dbo_Dim_Traffic_Condition</TableID>
+            <ColumnID>Traffic_Condition_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="f7f74454-1238-4507-bc84-e0f4e4b9139f">
+          <AttributeID>Bump</AttributeID>
+          <Name>Bump</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="71dfe1f3-c8d6-46a6-b5a4-3d6d50e6b7a9">
+          <AttributeID>Crossing</AttributeID>
+          <Name>Crossing</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8572dd95-91c3-44de-8e3d-e636a9860c2f">
+          <AttributeID>Junction</AttributeID>
+          <Name>Junction</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="705ec01f-9aa9-49b7-bdaa-2372891a2507">
+          <AttributeID>Railway</AttributeID>
+          <Name>Railway</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="234bb014-6031-49f4-879d-21734b623e77">
+          <AttributeID>Roundabout</AttributeID>
+          <Name>Roundabout</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="60ea1bc7-27eb-453a-bf22-69b811f19c1a">
+          <AttributeID>Station</AttributeID>
+          <Name>Station</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2ff4d328-d122-4991-8d2c-620b2497713b">
+          <AttributeID>Stop</AttributeID>
+          <Name>Stop</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f146e9ab-51a4-4b0b-85ee-bce7d274633d">
+          <AttributeID>Traffic Calming</AttributeID>
+          <Name>Traffic Calming</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="36e4f274-6364-46c0-87c6-10f821205478">
+          <AttributeID>Traffic Signal</AttributeID>
+          <Name>Traffic Signal</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7d70e7ac-cf5a-4026-97ce-a255a9a332ff">
+          <AttributeID>Turning Loop</AttributeID>
+          <Name>Turning Loop</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5ee2f5d6-6b45-4471-8346-127d67049f46">
+      <ID>Bump</ID>
+      <Name>Bump</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b37e0105-505e-4db9-87ff-7b7f8aa863d7">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="de095dac-b28f-4a96-b3e8-b3d1eb474d12">
+            <TableID>dbo_Dim_Traffic_Condition</TableID>
+            <ColumnID>Bump</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="238e6994-3eac-453d-8d09-f175fc9b089f">
+      <ID>Crossing</ID>
+      <Name>Crossing</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b85c6c8d-db21-4304-afad-d06886b559fc">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5426ac41-2963-40af-9b59-6fbc1699dd3f">
+            <TableID>dbo_Dim_Traffic_Condition</TableID>
+            <ColumnID>Crossing</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="24f0390a-1152-4de3-8a90-16cdbc277b99">
+      <ID>Junction</ID>
+      <Name>Junction</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fa248fd8-ecad-489f-af9d-6acef05a7b81">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2751d908-124a-4b33-a745-a6bce59da7d4">
+            <TableID>dbo_Dim_Traffic_Condition</TableID>
+            <ColumnID>Junction</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="db224ef9-abe2-4ba0-8246-899b0604613a">
+      <ID>Railway</ID>
+      <Name>Railway</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cdd55eb2-1a0a-4ba3-a6db-34296ebb51c6">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2f89ef82-dd48-43d1-8625-514c90e2e68c">
+            <TableID>dbo_Dim_Traffic_Condition</TableID>
+            <ColumnID>Railway</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a13b2664-f00f-469b-9383-afd77b18d3a6">
+      <ID>Roundabout</ID>
+      <Name>Roundabout</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="335664c6-f92f-465e-9fac-76bba9c948cf">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="094dca90-b09e-44d0-a2e0-c1205957e0d7">
+            <TableID>dbo_Dim_Traffic_Condition</TableID>
+            <ColumnID>Roundabout</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="23917024-35c2-49f0-9e3f-0025e76bda7b">
+      <ID>Station</ID>
+      <Name>Station</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ee2c9b5c-b49f-47f1-9af0-580102b0570b">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="916b9a87-1f56-4e50-803d-d2732dfa5e31">
+            <TableID>dbo_Dim_Traffic_Condition</TableID>
+            <ColumnID>Station</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a6108d7e-54d2-42d0-8bea-092b6429c7dc">
+      <ID>Stop</ID>
+      <Name>Stop</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="28f82b9b-19c4-419b-a920-d94d4c1c306b">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="32ce6340-5965-43a6-ac23-b7ea0fcdefb2">
+            <TableID>dbo_Dim_Traffic_Condition</TableID>
+            <ColumnID>Stop</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f3460f86-bb04-4d61-93a8-59ac23d89a08">
+      <ID>Traffic Calming</ID>
+      <Name>Traffic Calming</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e5d986d9-44b1-4071-9527-69827192bfda">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a12983f9-21fd-405c-bf3b-c688c6d49f92">
+            <TableID>dbo_Dim_Traffic_Condition</TableID>
+            <ColumnID>Traffic_Calming</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="074389ea-9a10-4fa6-99ea-303deb1bd301">
+      <ID>Traffic Signal</ID>
+      <Name>Traffic Signal</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="37b9cf4c-80da-4bba-889c-a4bb2e951ff3">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dd4a162f-975e-4feb-b595-faaee4227070">
+            <TableID>dbo_Dim_Traffic_Condition</TableID>
+            <ColumnID>Traffic_Signal</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fae98824-e167-4d1d-9d37-18929d308490">
+      <ID>Turning Loop</ID>
+      <Name>Turning Loop</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="97e437ed-b1d0-4526-ad38-817848113465">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="09761692-2c12-4b33-b3ea-c419c427111e">
+            <TableID>dbo_Dim_Traffic_Condition</TableID>
+            <ColumnID>Turning_Loop</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

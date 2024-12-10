@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "SSAS_US_ACCIDENTS", "SSAS_US_ACCIDENTS\SSAS_US_ACCIDENTS.dwproj", "{5575EBC1-4EC1-452B-9075-D5251EEA91FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5575EBC1-4EC1-452B-9075-D5251EEA91FB}.Development|Default.ActiveCfg = Development
+		{5575EBC1-4EC1-452B-9075-D5251EEA91FB}.Development|Default.Build.0 = Development
+		{5575EBC1-4EC1-452B-9075-D5251EEA91FB}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A65D32C-2914-4234-A883-B2BFA2EE27F0}
+	EndGlobalSection
+EndGlobal

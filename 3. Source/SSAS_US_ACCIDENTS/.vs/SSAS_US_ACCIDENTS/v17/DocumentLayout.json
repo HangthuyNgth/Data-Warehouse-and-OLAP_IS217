@@ -1,0 +1,175 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5575EBC1-4EC1-452B-9075-D5251EEA91FB}|SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS.dwproj|E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\US ACCIDENTS MARH23.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{5575EBC1-4EC1-452B-9075-D5251EEA91FB}|SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS.dwproj|solutionrelative:SSAS_US_ACCIDENTS\\US ACCIDENTS MARH23.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5575EBC1-4EC1-452B-9075-D5251EEA91FB}|SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS.dwproj|E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Time.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{5575EBC1-4EC1-452B-9075-D5251EEA91FB}|SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS.dwproj|solutionrelative:SSAS_US_ACCIDENTS\\Dim Time.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5575EBC1-4EC1-452B-9075-D5251EEA91FB}|SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS.dwproj|E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Location.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{5575EBC1-4EC1-452B-9075-D5251EEA91FB}|SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS.dwproj|solutionrelative:SSAS_US_ACCIDENTS\\Dim Location.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5575EBC1-4EC1-452B-9075-D5251EEA91FB}|SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS.dwproj|E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Weather.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{5575EBC1-4EC1-452B-9075-D5251EEA91FB}|SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS.dwproj|solutionrelative:SSAS_US_ACCIDENTS\\Dim Weather.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5575EBC1-4EC1-452B-9075-D5251EEA91FB}|SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS.dwproj|E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Wind.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{5575EBC1-4EC1-452B-9075-D5251EEA91FB}|SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS.dwproj|solutionrelative:SSAS_US_ACCIDENTS\\Dim Wind.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5575EBC1-4EC1-452B-9075-D5251EEA91FB}|SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS.dwproj|E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Airport.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{5575EBC1-4EC1-452B-9075-D5251EEA91FB}|SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS.dwproj|solutionrelative:SSAS_US_ACCIDENTS\\Dim Airport.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5575EBC1-4EC1-452B-9075-D5251EEA91FB}|SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS.dwproj|E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Temperature.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{5575EBC1-4EC1-452B-9075-D5251EEA91FB}|SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS.dwproj|solutionrelative:SSAS_US_ACCIDENTS\\Dim Temperature.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5575EBC1-4EC1-452B-9075-D5251EEA91FB}|SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS.dwproj|E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Traffic Condition.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{5575EBC1-4EC1-452B-9075-D5251EEA91FB}|SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS.dwproj|solutionrelative:SSAS_US_ACCIDENTS\\Dim Traffic Condition.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5575EBC1-4EC1-452B-9075-D5251EEA91FB}|SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS.dwproj|E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Visibility.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{5575EBC1-4EC1-452B-9075-D5251EEA91FB}|SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS.dwproj|solutionrelative:SSAS_US_ACCIDENTS\\Dim Visibility.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5575EBC1-4EC1-452B-9075-D5251EEA91FB}|SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS.dwproj|E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Precipitation.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{5575EBC1-4EC1-452B-9075-D5251EEA91FB}|SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS.dwproj|solutionrelative:SSAS_US_ACCIDENTS\\Dim Precipitation.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dim Weather.dim [Design]",
+              "DocumentMoniker": "E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Weather.dim",
+              "RelativeDocumentMoniker": "SSAS_US_ACCIDENTS\\Dim Weather.dim",
+              "ToolTip": "E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Weather.dim [Design]",
+              "RelativeToolTip": "SSAS_US_ACCIDENTS\\Dim Weather.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-14T16:46:20.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "US ACCIDENTS MARH23.cube [Design]",
+              "DocumentMoniker": "E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\US ACCIDENTS MARH23.cube",
+              "RelativeDocumentMoniker": "SSAS_US_ACCIDENTS\\US ACCIDENTS MARH23.cube",
+              "ToolTip": "E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\US ACCIDENTS MARH23.cube [Design]",
+              "RelativeToolTip": "SSAS_US_ACCIDENTS\\US ACCIDENTS MARH23.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-14T16:39:19.595Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dim Time.dim [Design]",
+              "DocumentMoniker": "E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Time.dim",
+              "RelativeDocumentMoniker": "SSAS_US_ACCIDENTS\\Dim Time.dim",
+              "ToolTip": "E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Time.dim [Design]",
+              "RelativeToolTip": "SSAS_US_ACCIDENTS\\Dim Time.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-14T16:46:12.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dim Temperature.dim [Design]",
+              "DocumentMoniker": "E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Temperature.dim",
+              "RelativeDocumentMoniker": "SSAS_US_ACCIDENTS\\Dim Temperature.dim",
+              "ToolTip": "E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Temperature.dim [Design]",
+              "RelativeToolTip": "SSAS_US_ACCIDENTS\\Dim Temperature.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-14T16:47:11.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dim Airport.dim [Design]",
+              "DocumentMoniker": "E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Airport.dim",
+              "RelativeDocumentMoniker": "SSAS_US_ACCIDENTS\\Dim Airport.dim",
+              "ToolTip": "E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Airport.dim [Design]",
+              "RelativeToolTip": "SSAS_US_ACCIDENTS\\Dim Airport.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-14T16:45:26.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dim Traffic Condition.dim [Design]",
+              "DocumentMoniker": "E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Traffic Condition.dim",
+              "RelativeDocumentMoniker": "SSAS_US_ACCIDENTS\\Dim Traffic Condition.dim",
+              "ToolTip": "E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Traffic Condition.dim [Design]",
+              "RelativeToolTip": "SSAS_US_ACCIDENTS\\Dim Traffic Condition.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-14T16:46:26.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dim Location.dim [Design]",
+              "DocumentMoniker": "E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Location.dim",
+              "RelativeDocumentMoniker": "SSAS_US_ACCIDENTS\\Dim Location.dim",
+              "ToolTip": "E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Location.dim [Design]",
+              "RelativeToolTip": "SSAS_US_ACCIDENTS\\Dim Location.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-14T16:43:54.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dim Wind.dim [Design]",
+              "DocumentMoniker": "E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Wind.dim",
+              "RelativeDocumentMoniker": "SSAS_US_ACCIDENTS\\Dim Wind.dim",
+              "ToolTip": "E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Wind.dim [Design]",
+              "RelativeToolTip": "SSAS_US_ACCIDENTS\\Dim Wind.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-14T16:45:41.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dim Visibility.dim [Design]",
+              "DocumentMoniker": "E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Visibility.dim",
+              "RelativeDocumentMoniker": "SSAS_US_ACCIDENTS\\Dim Visibility.dim",
+              "ToolTip": "E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Visibility.dim [Design]",
+              "RelativeToolTip": "SSAS_US_ACCIDENTS\\Dim Visibility.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-14T16:46:16.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Dim Precipitation.dim [Design]",
+              "DocumentMoniker": "E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Precipitation.dim",
+              "RelativeDocumentMoniker": "SSAS_US_ACCIDENTS\\Dim Precipitation.dim",
+              "ToolTip": "E:\\HOCTAP\\N\u0103m 3\\IS217 - Kho d\u1EEF li\u1EC7u OLAP\\SSAS\\SSAS_US_ACCIDENTS\\SSAS_US_ACCIDENTS\\Dim Precipitation.dim [Design]",
+              "RelativeToolTip": "SSAS_US_ACCIDENTS\\Dim Precipitation.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-14T16:45:50.882Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
